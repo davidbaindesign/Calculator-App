@@ -1,0 +1,63 @@
+<!doctype html>
+
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Calculator App</title>
+<link href='calculator.css' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+<script type="text/javascript" src="calculator.js"></script>
+</head>
+
+<body>
+
+<div id="calculator">
+  <div class="wrapper">
+    <div id="solar">
+    </div>
+
+  </div>
+
+  <div id="numbers">
+    <div id="numFont">
+      <h2>0</h2>
+    </div>
+  </div>
+  <div class="row">
+    <button class="buttons pink" onclick="clear2(this)">C</button>
+    <button class="buttons pink" onclick="clear2(this)">AC</button>
+    <div id="sig">
+      <p>BAIN</p>
+    </div>
+  </div>
+  <div class="row">
+    <button class="buttons" onclick="button(this)">7</button>
+    <button class="buttons" onclick="button(this)">8</button>
+    <button class="buttons" onclick="button(this)">9</button>
+    <button class="buttons" onclick="symbol(this)">/</button>
+  </div>
+  <div class="row">
+    <button class="buttons" onclick="button(this)">4</button>
+    <button class="buttons" onclick="button(this)">5</button>
+    <button class="buttons" onclick="button(this)">6</button>
+    <button class="buttons" onclick="symbol(this)">*</button>
+  </div>
+  <div class="row">
+    <button class="buttons" onclick="button(this)">1</button>
+    <button class="buttons" onclick="button(this)">2</button>
+    <button class="buttons" onclick="button(this)">3</button>
+    <button class="buttons" onclick="symbol(this)">+</button>
+  </div>
+  <div class="row">
+    <button class="buttons" onclick="button(this)">0</button>
+    <button class="buttons" onclick="button(this)">.</button>
+    <button class="buttons" onclick="symbol(this)">=</button>
+    <button class="buttons" onclick="symbol(this)">-</button>
+  </div>
+
+</div>
+
+  </body>
+  </html>

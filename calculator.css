@@ -1,0 +1,129 @@
+p,h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+ 
+}
+
+html, body {
+  height: 100%;
+  background: #ddd;
+  padding: 0;
+  margin: 0;
+}
+
+#calculator {
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 385px;
+  background: #bdf;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  margin:0;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color: #68b;
+  box-shadow: 10px 10px 2px #555;
+}
+
+#numbers {
+  
+  margin: 20px auto;
+  width: 80%;
+  height: 35px;
+  background: #aba;
+  border: solid #787;
+  border-width: 3px 2px 0px 2px;
+}
+
+#numbers:before {
+  position: absolute;
+  z-index: -1;
+  margin: -8px -4px;
+  width: 240px;
+  height: 35px;
+  border: 5px solid #343;
+  border-width: 8px 4px 0px 4px;
+  content: "";
+}
+#numFont {
+  text-align: right;
+  font-family: 'Orbitron', sans-serif;
+  line-height: 40px;
+  color: #444;
+  overflow: hidden;
+}
+.wrapper {
+  display: block;
+  width: 300px;
+  margin: 0;
+}
+
+#solar {
+  
+  width: 140px;
+  height: 20px;
+  background: #433;
+  margin: 15px auto 0 auto;
+  border-radius: 15px;
+  
+  border: solid #222;
+  border-width: 5px 3px 0px 3px;
+  
+}
+
+#sig {
+  position: absolute;
+  text-align: center;
+  margin: 0px 0px 0px 5px;
+  display: inline-block;
+  line-height: 115%;
+  width: 120px;
+  font-family: 'Candal', sans-serif;
+  font-size: 230%;
+  color: #68b;
+}
+
+
+.buttons {
+  display: inline-block;
+  background: #555;
+  color: white;
+  font-size: 130%;
+  width: 59px;
+  height: 48px;
+  text-align: center;
+  line-height: 45px;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #000;
+  border-radius: 4px;
+  font-family: Arial, Gadget, sans-serif;
+  margin: 1px 0px;
+  
+}
+
+.buttons:hover {
+  background: #777;
+}
+.buttons:active {
+  border-width: 0px;
+  height: 45px;
+  transform: translate(0px,3px);
+}
+
+.row {
+  margin: 0px 25px;
+  display: block;
+  width: 300px;
+}
+.pink {
+  background: #f99;
+  border-color: #b55
+}
+
+.pink:hover {
+  background: #fcc;
+}
